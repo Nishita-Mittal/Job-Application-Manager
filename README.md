@@ -1,89 +1,97 @@
-📂 Job Application Manager
-A Streamlit-based web application that simulates an Applicant Tracking System (ATS) resume scanner. It allows users to evaluate their resume against a job description using NLP techniques and Large Language Models (LLMs) for better job application outcomes.
+🧾 Job Application Manager
+A Streamlit-based web application that simulates an Applicant Tracking System (ATS) resume scanner. This tool helps job seekers evaluate their resume against a job description using Natural Language Processing (NLP) and LLM-powered analysis to optimize for better hiring outcomes.
 
 📌 Features
-✅ Resume Analysis:
-Upload PDF Resume and extract relevant content
+✅ Resume Evaluation:
+Upload resumes in PDF format for parsing and intelligent analysis.
 
-AI-generated summary with strengths, weaknesses, and recommendations
+AI-generated summary feedback highlighting strengths, weaknesses, and suggestions.
 
 ✅ Job Description Matcher:
-Paste or type job descriptions
+Paste or type any job description into the app.
 
-Highlights resume-to-JD alignment
+Smart comparison of resume content against job expectations.
 
-Displays missing keywords and areas to improve
+Highlights missing keywords and areas for improvement.
 
 ✅ Keyword Extraction:
-Extracts skills and technologies relevant to the job
+Extracts technical skills, tools, and domain-specific terms from the job description.
 
-Returns result in clean JSON format
+Presents output in structured JSON format.
 
 ✅ Match Percentage:
-Shows compatibility score between resume and JD
+Calculates an overall compatibility score between the resume and job description.
 
-Provides:
+Displays:
 
 ❌ Missing Keywords
 
-✅ Compatibility Percentage
+✅ Match Percentage
 
-💡 Final Thoughts
+💡 Actionable Insights
 
 🛠️ Technologies Used
-Language: Python
+Frontend & Backend: Streamlit
 
-Framework: Streamlit
+Programming Language: Python
 
-LLM API: Google Gemini
+LLM Integration: Google Gemini API
 
 PDF Handling: pdf2image, PyMuPDF, pdfminer.six
 
-Utilities: os, uuid, base64
+File Handling: os, uuid, base64
 
-Visualization: JSON output formatting
+Visualization: JSON-formatted response
 
-IDE & Tools: VS Code, Git, GitHub
-
-🧠 Concepts Covered
-Natural Language Processing for resume and JD matching
-
-Prompt engineering for LLM-based resume evaluation
-
-Real-time interaction with uploaded PDFs
-
-Data-driven feedback for resume improvement
-
-🚀 Installation
-git clone https://github.com/Nishita-Mittal/Job-Application-Manager.git
-cd Job-Application-Manager
-pip install -r requirements.txt
-streamlit run app.py
-
-💻 Usage Instructions
-Launch the app using streamlit run app.py
-Paste your job description in the input area
-Upload your PDF resume
-Click on:
-Tell Me About the Resume → for evaluation summary
-Get Keywords → for keyword extraction
-Get Percentage Match → for compatibility score and suggestions
+Version Control: Git & GitHub
 
 📁 Project Structure
 
 Job-Application-Manager/
-├── app.py               # Main Streamlit app
-├── requirements.txt     # Python dependencies
-├── uploads/             # Uploaded resume directory
-│   └── reports/         # Analysis reports (optional)
-├── index.html           # Optional PDF preview
-└── jd_matcher.py        # JD matching & scoring logic
+├── app.py               # Main Streamlit app logic
+├── requirements.txt     # List of Python dependencies
+├── uploads/             # Directory where uploaded resumes are stored
+│   └── reports/         # Generated reports (optional)
+├── index.html           # For PDF preview (optional)
+└── jd_matcher.py        # Job description matching and scoring module
 
-🌱 Future Improvements
-Compare multiple resumes in one go
-Visualize match insights with charts
-Parse LinkedIn profiles to auto-fetch resumes
-Export analysis reports as downloadable PDFs
+🚀 Installation
+To run this project locally:
+# Step 1: Clone the repository
+git clone https://github.com/Nishita-Mittal/Job-Application-Manager.git
+
+# Step 2: Navigate into the project directory
+cd Job-Application-Manager
+
+# Step 3: Install all required packages
+pip install -r requirements.txt
+
+# Step 4: Launch the Streamlit app
+streamlit run app.py
+
+💻 Usage Instructions
+Open the Streamlit app in your browser.
+
+Paste your job description into the provided text area.
+
+Upload your PDF resume.
+
+Click on the desired options:
+
+🧠 Tell Me About the Resume → for AI-generated evaluation
+
+🔍 Get Keywords → for skill extraction
+
+📊 Get Percentage Match → for fit analysis and final suggestions
+
+🌱 Future Enhancements
+📁 Compare multiple resumes for the same job
+
+📊 Visualize results using charts or graphs
+
+🔗 Support LinkedIn URL parsing for automatic resume fetch
+
+📝 Export match reports as downloadable PDFs
 
 🙋‍♀️ Author
 Nishita Mittal
