@@ -53,23 +53,22 @@ Job-Application-Manager/<br>
 
 ## 🚀 Installation
 To run this project locally:<br>
-# Step 1: Clone the repository<br>
+Step 1: Clone the repository<br>
 git clone https://github.com/Nishita-Mittal/Job-Application-Manager.git<br>
 
-# Step 2: Navigate into the project directory<br>
+Step 2: Navigate into the project directory<br>
 cd Job-Application-Manager<br>
 
-# Step 3: Install all required packages<br>
+Step 3: Install all required packages<br>
 pip install -r requirements.txt<br>
 
-# Step 4: Launch the Streamlit app<br>
+Step 4: Launch the Streamlit app<br>
 streamlit run app.py<br>
 
 ---
 
 ## 💻 Usage Instructions<br>
-- Open the Streamlit app in your browser.
-
+- Open the Streamlit app in your browser.<br>
 - Paste your job description into the provided text area.<br>
 - Upload your PDF resume.<br>
 - Click on the desired options:<br>
