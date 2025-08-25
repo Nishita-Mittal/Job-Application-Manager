@@ -44,7 +44,7 @@ Calculates an overall compatibility score between the resume and job description
 Job-Application-Manager/<br>
 ├── app.py               # Main Streamlit app logic<br>
 ├── requirements.txt     # List of Python dependencies<br>
-├── uploads/<br>         # Directory where uploaded resumes are stored<br>
+├── uploads/             # Directory where uploaded resumes are stored<br>
 │   └── reports/         # Generated reports (optional)<br>
 ├── index.html           # For PDF preview (optional)<br>
 └── jd_matcher.py        # Job description matching and scoring module<br>
